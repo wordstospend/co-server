@@ -11,7 +11,7 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2'
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'Users',                      # Or path to database file if using sqlite3.
         'USER': 'Admin',                      # Not used with sqlite3.
         'PASSWORD': '8something',                  # Not used with sqlite3.
