@@ -1,0 +1,6 @@
+due to the fact that macs don't run a normal compiler (fuck you steve)
+you need to run
+
+sudo env ARCHFLAGS="-arch i386 -arch x86_64" pip install psycopg2
+
+to install psycopg2, if not on a mac just include it in requirement.txt
